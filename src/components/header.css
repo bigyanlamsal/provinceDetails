@@ -1,0 +1,86 @@
+a{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0px 20px 0px 60px;
+}
+
+.container{
+    height:10vh;
+    width: 100%;
+}
+.navBar{
+    height: 110%;
+    background:rgb(9, 41, 66) ;
+    margin: -20px 0px 0px 0px;
+}
+
+.menuItems{
+    padding: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+.top-react-icons{
+    font-size: 28px;
+}
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 10px 0px 0px 0px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  .dropdown:hover .dropdown-content { background-color:white ;
+    display: block;
+  }
+
+@media only screen and (max-width: 732px) {
+    .navBar {
+      width: 300px;
+      height: 1000px;
+      background:black ;
+      padding: 75px 0px 0px 0px;
+      opacity: 0.8;
+    }
+    .menuItems{
+        height: 75%;
+        width: 50%;
+        display: grid;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .dropdown-content a {
+        color: black;
+      }
+      .dropdown-content{
+
+          background: black;
+          opacity: 0.8;
+          display: grid;
+          flex-direction: column;
+      }
+  }

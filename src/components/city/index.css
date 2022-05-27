@@ -1,0 +1,60 @@
+
+.main{
+    padding: 15px;
+    height: 350px;
+    width: 96.6%;
+    display: flex;
+    justify-content: space-between;
+    background:black;
+}
+
+.Image img{
+    height: 350px;
+    width: 70%;
+}
+.Country{
+    justify-content: space-between;
+    text-align: left;
+    height: 350px;
+    padding: 15px;
+    width:25%;
+    margin: 0px 0px 0px 30px;
+}
+.Country h2{
+    font-size: 25px;
+    color: white;
+}
+.countryFamous{
+    justify-content: space-between;
+    text-align: left;
+    padding: 15px;
+    height: 350px;
+    width: 25%;
+    margin: 0px 20px 0px 0px;
+}
+.countryFamous h2{
+    font-size: 16px;
+    color: white;
+}
+.moreImages{
+    padding: 5px;
+    height: 470px;
+    width: 99%;
+    background:rgb(9, 41, 66) ;
+}
+.pictures{
+    display: flex;
+    justify-content: space-between;
+    height: 380px;
+    width: 100%;
+    padding: 25px;
+    margin: -30px 0px 0px -20px;
+
+}
+.pictures img{
+    height: 100%;
+    width: 80%;
+}
+.moreImages h1{
+    color: white;
+}
